@@ -1,2 +1,23 @@
-# Android-Internship-Assignment-PAYO-
-an android app with the following features ● Signup screen: Signup form should contain first name, last name, email, password, confirm password, mobile number, and address. On submitting the form all values will be stored into the database. Signup basic validation should be implemented on the form. ● Login screen: It will have an email and password field. On clicking the login button, it will check with the database record and if the user exists it will redirect to the home screen. Login basic validation should be implemented on the form. ● Home screen: Show a list of records by calling API. API is mentioned here: https: //reqres. in/api/users?page=1 On long click on an item in the list, confirmation dialog should appear for deleting the item. If the user clicks on Yes, the item should be removed from the list. Things that must be there: -Show progress bar while loading api, -Use pagination for api loading, -Show error incase of api failure) ● My Profile: Add the left side drawer ( hamburger menu) with the " My profile" menu. On click on the ‘ My Profile’ menu, the profile screen will open which will show all the profile data which was added in the Sign-up form. ● Logout: On click on the logout button, the user should be redirected to the login form. Bonus Points: Sort the list of records ( created on home screen) by first name &amp; last name. Sorting should be done in the front-end. Sorting should be done separately for each page.
+# Android Internship Assignment (My Application)
+## Overview:
+"My Application" is an Android app, developed using Android Studio IDE with JAVA. This app has these features-
+
+### 1. Signup screen:
+In signup screen you can create an account. To fillup the signup form you must provide first name, last name, email,
+password, confirm password, mobile number, and address. Then click "SIGNUP" button to create account. I use local database "SQLit Database"  to store data.
+If you have already an account you can goto login screen by click "ALREADY HAVE ACCOUNT? LOGIN" button.
+Note: Signup basic validations are implemented on the form.Password should be at least 6 character long.
+
+### 2. Login screen:
+You can login into this application using previously registered email id and password in login screen. If you are new then create an account by click button "NEW USER? SIGNUP".
+When you click "LOGIN" button 1st check email already registered or not. If already registered then matching password. When login succesfully you redirect to Home Screen.
+Login basic validations are implemented on this form.
+
+### 3. Home screen:
+In Home screen you show some user list which have an image, name and email by calling API (https: //reqres. in/api/users?page=1). When scroll down get more users data if available . This list is sorted by first name & last name of users. You can delete the user from user list By long click on list iteam. When long click on list iteam confirmation dialog will appear.
+
+### 4. My Profile:
+You show your registered information on "My Profile" that is present in the left side drawer ( hamburger menu) with the " My
+profile" menu. At the buttom  a "logout" button present. On click on the logout button, the user should be redirected to
+the login form.
+
